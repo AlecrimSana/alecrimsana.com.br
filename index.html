@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alecrim Sana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .container {
+            padding: 15px;
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .container:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .header,
+        .conteudo {
+            float: left;
+            padding: 15px;
+        }
+
+        .header {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        p,
+        ul {
+            color: #333;
+            font-size: 14px;
+        }
+
+        ul {
+            margin-left: 30px;
+        }
+
+        ul li {
+            list-style: square;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto
+        }a,
+        .titulo {
+            color: #5e6e46;}
+
+        .titulo {
+            font-size: 20px;
+            margin: 35px 0 15px 0;
+            border-bottom: 1px solid #5e6e46;
+            position: relative;
+        }
+
+        .titulo:after {
+            content: " ";
+            background: #5e6e46;
+            height: 3px;
+            width: 50px;
+            display: block;
+            position: absolute;
+        }
+
+        .redes-sociais {
+            padding: 0;
+            margin: 10px 0 0 0;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .redes-sociais a {
+            margin: 0 5px 0 0 ;
+        }
+
+        .redes-sociais a,
+        .redes-sociais a i {
+            display: inline-block;
+            width: 23px;
+            height: 23px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .redes-sociais .instagram i {
+            background-image: url(instagram.svg);
+        }
+
+        .redes-sociais .facebook i {
+            background-image: url(facebook.svg);
+        }
+
+        .redes-sociais .messenger i {
+            background-image: url(messenger.svg);
+        }
+
+        .redes-sociais span {
+            margin-top: 3px;
+            position: absolute;
+            display: inline-block;
+            padding: 0;
+        }
+        #facebook{
+            margin: 15px 0;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">
+                <img src="logo.png" title="Alecrim Sana">
+            </h1>
+        </header>
+
+        <div class="conteudo">
+            <h2 class="titulo">Contato</h2>
+            <p>Terapias Alternativas por @belisaparente
+                <br> 💆 Massoterapeuta
+                <br> 📝 Jornalista 
+            color: #5e6e46;
+            <br> 💌 <a href="mailto:alecrimsana@gmail.com"><strong>alecrimsana@gmail.com</strong></a>
+                <br> 📱 (81) 9 96181713 (whatsapp)
+            </p>
+            <p class="redes-sociais">
+                <a href="#facebook" class="facebook">
+                    <i></i>
+                </a>
+                <a href="#instagram" class="instagram">
+                    <i></i>
+                </a>
+                <a href="#messenger" class="messenger">
+                    <i></i>
+                </a>
+                <span>@alecrimsana</span>
+            </p>
+            <h2 class="titulo">Sobre</h2>
+            <p>Alecrim significa “orvalho do mar” (rosmarinus) para os Romanos, e de acordo com a sabedoria popular, a planta
+                tem o poder de estimular a “alegria como potência da alma”.</p>
+            <h3 class="titulo">
+                Serviços
+
+            </h3>
+            <ul>
+                <li>Alegra Massagem Terapêutica – Técnicas combinadas de sueca, havaiana, yoga ayurvédica, shiatsu, do-in, reflexologia
+                    podal e drenagem linfática;</li>
+                <li>Massagens clássicas - Relaxante/Sueca/Havaiana;</li>
+                <li>Massagem Redutora/Modeladora;</li>
+                <li>Quick Massage (massagem rápida na cadeira);</li>
+                <li>Reflexologia Podal;</li>
+                <li>Do-in e Shiatsu;</li>
+                <li>Shantala (massagem em bebês);</li>
+                <li>Acupuntura;</li>
+                <li>Aromoterapia;</li>
+                <li>Drenagem Linfática Manual (pré e pós-operatório);</li>
+                <li>Indian Head Massage (Champi) e Crânio Digitopuntura.</li>
+            </ul>
+            <h3 class="titulo">
+                    Redes sociais
+    
+                </h3><div class="facebook" id="facebook">
+                <div id="fb-root"></div>
+                <script>
+                    (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src =
+                            'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=494295890618531';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-page" data-href="https://www.facebook.com/alecrimsana/" data-tabs="timeline" data-width="500" data-small-header="false"
+                    data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/alecrimsana/" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/alecrimsana/">Alecrim Sana</a>
+                </div>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
